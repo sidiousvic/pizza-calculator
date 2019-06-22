@@ -1,0 +1,42 @@
+body {
+  background-image: url("/images/pizza-purple-background.png");
+  overflow: scroll;
+}
+
+h1 {
+  color: white;
+}
+
+.sub-title {
+  color: white;
+}
+
+.btn {
+  background-image: url("/images/pizza-purple-background.png");
+  border: none;
+}
+
+.input-group-text {
+  background-image: url("/images/pizza-purple-background.png");
+  color: rgb(227, 180, 233);
+  border: none;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: rgb(228, 178, 228);
+}
+
+.form-control {
+  border: none;
+  color: rgb(228, 178, 228);
+  background-color: rgb(90, 58, 121);
+}
+
+input[type="number"]:disabled {
+  background-color: rgb(90, 58, 121);
+  text-align: right;
+}
+
+.card {
+  background-image: url("/images/pizza-purple-background-dark.png");
+}
