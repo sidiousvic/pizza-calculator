@@ -1,5 +1,5 @@
 body {
-  background-image: url("/images/pizza-purple-background.png");
+  background-image: url("./images/pizza-purple-background.png");
   overflow: scroll;
 }
 
@@ -12,12 +12,12 @@ h1 {
 }
 
 .btn {
-  background-image: url("/images/pizza-purple-background.png");
+  background-image: url("./images/pizza-purple-background.png");
   border: none;
 }
 
 .input-group-text {
-  background-image: url("/images/pizza-purple-background.png");
+  background-image: url("./images/pizza-purple-background.png");
   color: rgb(227, 180, 233);
   border: none;
 }
@@ -38,5 +38,5 @@ input[type="number"]:disabled {
 }
 
 .card {
-  background-image: url("/images/pizza-purple-background-dark.png");
+  background-image: url("./images/pizza-purple-background-dark.png");
 }
