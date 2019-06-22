@@ -48,7 +48,7 @@ function calculatePizzas(e) {
 
   console.log(sumAppetites(appetites).toFixed(1));
 
-  result.value = sumAppetites(appetites).toFixed(2);
+  result.value = sumAppetites(appetites).toFixed(1);
 
   // document.getElementById("results").style.display = "block";
   document.getElementById("loading-static").style.display = "block";
