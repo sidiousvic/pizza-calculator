@@ -40,3 +40,15 @@ input[type="number"]:disabled {
 .card {
   background-image: url("./images/pizza-purple-background-dark.png");
 }
+
+#results {
+  display: block;
+}
+
+#loading-static {
+  display: block;
+}
+
+#loading-moving {
+  display: none;
+}
