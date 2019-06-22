@@ -1,8 +1,20 @@
 // variables
-const form = document.querySelector(".btn");
+const button = document.querySelector(".btn");
 
+//
 // event listeners
-form.addEventListener("click", calculatePizzas);
+button.addEventListener("click", function(e) {
+  // hide results
+  // document.getElementById("results").style.display = "none";
+
+  // show loader
+  document.getElementById("loading-static").style.display = "none";
+  document.getElementById("loading-moving").style.display = "block";
+
+  setTimeout(calculatePizzas, 3000);
+
+  e.preventDefault();
+});
 
 function calculatePizzas(e) {
   // UI vars input
@@ -37,6 +49,10 @@ function calculatePizzas(e) {
   console.log(sumAppetites(appetites).toFixed(1));
 
   result.value = sumAppetites(appetites).toFixed(2);
+
+  // document.getElementById("results").style.display = "block";
+  document.getElementById("loading-static").style.display = "block";
+  document.getElementById("loading-moving").style.display = "none";
 
   e.preventDefault();
 }
