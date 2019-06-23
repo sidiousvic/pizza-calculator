@@ -1,5 +1,6 @@
 body {
   background-image: url("./images/pizza-purple-background.png");
+  background-color: rgb(90, 58, 121);
   overflow: scroll;
 }
 
