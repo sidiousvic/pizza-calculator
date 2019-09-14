@@ -61,3 +61,11 @@ input[type='number']:disabled {
   cursor: pointer;
   z-index: 99;
 }
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+  #dbsv {
+    height: 50px;
+    width: 50px;
+  }
+}
