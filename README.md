@@ -2,4 +2,4 @@
 
 A pizza—calculating app. 🍕
 
-@sidiousvic
+by @sidiousvic
